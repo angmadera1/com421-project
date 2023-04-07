@@ -1,0 +1,209 @@
+nav {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #cc0000;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #610000;
+}
+
+nav ul li a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
+
+body h1 {
+  font-family: "Roboto Slab", serif;
+  display: inline-block;
+  margin: 0.67em 0em 0.3em;
+}
+
+body h2 {
+  font-family: "Roboto Slab", serif;
+  margin: 0.6em auto 0.3em;
+}
+
+body h3 {
+  margin-bottom: 8px;
+}
+
+body h4 {
+  color: #610000;
+}
+
+p,
+ul:not(nav > ul),
+ol {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0em auto 10px;
+}
+
+ul:not(nav > ul) > li:first-child {
+  margin-top: 4px;
+}
+
+ul:not(nav > ul) > li {
+  margin: 4px auto;
+}
+
+#onpage {
+  color: white;
+  font-weight: bold;
+}
+
+#title {
+  margin: 0px;
+}
+
+a:hover,
+a:focus {
+  color: #ff9900;
+}
+
+a:active {
+  color: #610000;
+}
+
+.title {
+  text-align: center;
+}
+
+aside {
+  width: 20%;
+  padding: 1rem;
+  margin-right: 2rem;
+  float: left;
+  margin: 1rem 2rem 1rem auto;
+  box-shadow: inset -8px 0px 5px -5px #cc0000, rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background: #f1f1f1;
+}
+
+strong {
+  color: black;
+}
+
+h2,
+h3,
+h4,
+ol {
+  margin: auto;
+}
+
+a {
+  color: #cc0000;
+}
+
+.content {
+  width: auto;
+  overflow: hidden;
+}
+
+#data {
+  margin-bottom: 1em;
+}
+
+figure figcaption {
+  text-align: left;
+  margin: auto;
+  margin-bottom: 1em;
+  font-size: 12px;
+  font-style: italic;
+  width: 50%;
+  
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.right-float {
+  float: right;
+  text-align: right;
+  width: 15%;
+}
+
+.left-float {
+  float: left;
+  text-align: left;
+  width: 15%;
+}
+
+.float {
+  margin: auto;
+  width: 90%;
+  padding-bottom: 1em;
+}
+
+aside > p,
+aside > ul > li {
+  font-size: 13px;
+}
+
+main {
+  margin: auto;
+  width: 90%;
+
+}
+
+.arrows {
+  margin: auto;
+  padding: 0em;
+  display: initial;
+  width: 60px;
+}
+
+.left-float > p, .right-float > p {
+  margin: 0em;
+  font-size: 14px;
+}
+
+.spacing {
+  height: 9em;
+}
+
+.space {
+  height: 7em;
+}
+
+#aside-data {
+  margin: 0rem 2rem 1rem auto;
+}
+
+#fig-three {
+  margin-top: 4em;
+}
